@@ -35,13 +35,16 @@ h3 {
   margin: 0 auto;
 }
 .section {
-  padding-top: 96px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 img {
   display: block;
 }
 /* header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
   display: flex;
@@ -60,6 +63,7 @@ li {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .address-list {
   display: flex;
@@ -74,7 +78,6 @@ li {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-top: 25.5px;
   padding-bottom: 0;
 }
 .logo-studio {
@@ -120,6 +123,7 @@ li {
   background-color: #2e2f42;
   height: 600px;
   text-align: center;
+  padding: 188px 0;
 }
 .page-title {
   color: var(--white, #fff);
@@ -147,8 +151,16 @@ li {
   line-height: 24px;
   letter-spacing: 0.64px;
   font-family: "Roboto", sans-serif;
-  padding: 16px 32px;
   margin-top: 48px;
+  margin-left: 500px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* section 2 */
 .section-title {
@@ -160,6 +172,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .text-one {
   color: var(--slate, #434455);
@@ -177,6 +190,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.4px;
   line-height: 24px;
+  margin-bottom: 8px;
 }
 .visually-hidden {
   position: absolute;
@@ -207,6 +221,7 @@ li {
 .list-three {
   text-align: center;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .list-team {
   display: flex;
@@ -219,9 +234,6 @@ li {
 }
 .container-text-team {
   padding: 32px 0;
-}
-.list-team .text-one {
-  padding-top: 8px;
 }
 
 /* section 4 */
@@ -239,6 +251,7 @@ li {
 .portfolio-text-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* footer */
@@ -268,5 +281,5 @@ li {
 }
 .footer .logo-web {
   display: inline-block;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
