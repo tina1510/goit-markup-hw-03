@@ -59,7 +59,6 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 .navigation a,
 li {
